@@ -1,0 +1,121 @@
+body {
+    background-color: lightblue;
+
+}
+
+.mainSection {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: solid;
+    border-radius: 10px;
+    border-style: double;
+    background-color: white;
+}
+
+.header {
+    display: block;
+    text-align: center;
+    color: teal;
+}
+
+.header ul {
+    color: white;
+    list-style-type: none;
+    background-image: linear-gradient(to right, rgb(221, 162, 0), lightblue);
+    width: auto;
+    text-align: left;
+
+
+}
+
+.header li {
+    display: inline;
+    border: solid;
+    margin: auto;
+    padding: 5px;
+
+}
+
+a:hover {
+    background-image: linear-gradient(to right, lightblue, white);
+    color: white
+}
+a:visited{
+    color: grey;
+}
+
+.upperSection {
+
+    margin: 10px;
+    margin: solid;
+    overflow: auto;
+}
+
+.leftBox {
+
+    display: inline;
+    float: left;
+    width: 55%;
+}
+
+.leftBox h2 {
+    color: olive;
+}
+
+.leftBox p {
+    font-size: 1.2em;
+}
+
+
+.rightBox {
+    display: inline;
+    width: 40%;
+}
+
+.rightBox img {
+    display: block;
+    margin: auto;
+    height: auto;
+    align-items: center;
+}
+
+
+
+.midSection{
+   display: block;
+    padding: 10px;
+    margin: 10px;
+}
+.midSection h1{
+    
+    text-align: center;
+    color:white;
+    background-image: linear-gradient(to right, rgb(221, 162, 0), lightblue);
+    width: auto;
+}
+.midSection img{
+    margin:auto;
+    margin-left: 50px;
+}
+
+.lowerSection{
+    width: auto;
+    margin: 5%;
+}
+.lowerSection h3{
+    color:teal
+}
+
+.lowerSection box{
+    margin: 10px;
+}
+
+.lowerSection h3{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.lowerSection p{
+    margin-top: 3px;
+
+}
